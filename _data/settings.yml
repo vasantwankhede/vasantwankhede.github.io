@@ -1,14 +1,14 @@
 #-------------------------------
 # General Site Settings
 
-title: Artists Theme
-description: Thinker // Designer // YouTuber
-email: devtipsfordesigners@gmail.com
+title: Vasant Wankhede
+description: Painter // Artist
+email: vasantwankhede234@outlook.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About Me, url: '#about-me'}
+- {name: About, url: '#about'}
 - {name: Work, url: '#work'}
 - {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
@@ -18,10 +18,10 @@ menu:
 
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
-seo:
-  description: 'Provide a description for your website to make it visible to search engines.'
-  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
-  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+#seo:
+#   description: 'Provide a description for your website to make it visible to search engines.'
+#   rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+#   rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
 
 #-------------------------------
 # Google Analytics Section
