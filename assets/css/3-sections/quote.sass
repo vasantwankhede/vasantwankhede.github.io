@@ -20,6 +20,13 @@
   position: relative
   z-index: 1
 
+h4
+  color: $accent
+  font-size: 14px
+  text-align: right
+  margin-right: 0%
+
+
 .quote-quote-mark
   +position(absolute, -18px null null -15px)
   +size(60px)
@@ -28,3 +35,9 @@
 
   path
     fill: $accent
+
+@media (max-width: 541px)
+  .quote-content
+    margin: 10px
+    font-size: 15px
+    font-weight: 400
