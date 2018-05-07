@@ -2,7 +2,7 @@ $(function() {
 	smoothScroll(300);
 	workBelt();
 	workLoad();
-	clientStuff();
+	testimonialstuff();
 
 	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
 	$(".biglink").fitText(1.5);
@@ -63,7 +63,7 @@ function  workLoad() {
 
 
 
-function clientStuff() {
+function testimonialstuff() {
 
   $('.client-logo, .client-button').click(function() {
     var $this = $(this),
@@ -78,8 +78,8 @@ function clientStuff() {
   $('.client-control-next, .client-control-prev').click(function() {
 
     var $this = $(this),
-        curActiveClient = $('.clients-belt').find('.active-client'),
-        position = $('.clients-belt').children().index(curActiveClient),
+        curActiveClient = $('.testimonials-belt').find('.active-client'),
+        position = $('.testimonials-belt').children().index(curActiveClient),
         clientNum = $('.client-unit').length;
 
       if($this.hasClass('client-control-next')) {
